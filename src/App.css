@@ -1,0 +1,219 @@
+.App{
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+
+}
+.body{
+  min-height: 100vh;
+}
+
+/*Home*/
+h1, p, h5,a,h2{
+  font-family: 'Poppins', sans-serif;
+  
+  color: white;
+  padding-bottom: 20px;
+}
+
+.home-right-img{
+  min-height: 100vh;
+  background-image: url(./Assets/Homehero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero{
+  
+  padding: 70px 0px;
+  min-height: 100vh;
+}
+
+.hero img{
+  height: 70vh;
+  width: auto;
+}
+
+.hero-content{
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (max-width: 768px) { 
+  
+.hero{
+
+  background-image: url(./Assets/Homehero.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding: 0;
+}
+
+
+.error-page{
+
+
+background-size: 100%!important;
+}
+
+#ind-text{
+
+  margin-top: 20px!important;
+}
+.stock, .quotes{
+
+padding-right: 30px!important;
+padding-left: 30px!important;
+
+}
+.info-table{
+
+  margin-top: 20px!important;
+}
+ }
+ .hero-content{
+  padding-left: 30px!important;
+  padding-right: 30px!important;
+
+ }
+
+.navbar{
+  padding:50px 30px ;
+  margin-bottom: 50px;
+}
+.navbar-toggler {
+  border: none!important;
+}
+.navbar-toggler:focus{
+  border-color: transparent;
+}
+
+.navbar-nav{
+  align-items: center;
+}
+
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.home-btn{
+
+  
+  margin-top: 30px;
+  
+}
+
+.card{
+  
+  border: 1px solid!important;
+  border-color: white!important;
+  border-radius: 15px !important;
+  margin: 30px;
+  height: 250px;
+}
+.card-area{
+
+position: relative;
+
+
+}
+.card-area h2{
+  position: relative;
+ z-index: 3;
+
+
+}
+#homeEle{
+position:absolute;
+width: 35vh;
+height: auto;
+left: 13%;
+top: -160px;
+
+
+
+}
+.card-body{
+  padding: 1.5rem !important;
+}
+
+footer{
+  text-align: center;
+  margin-top: auto;
+  padding-top: 50px;
+}
+
+/*stock*/
+.stock p{
+
+  margin-bottom: -10px;
+}
+
+/* .home-bg{
+  background-image: url(./Assets/Home_computer-01.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/*Stock*/
+
+/*Quotes*/
+.table{
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9em;
+
+}
+.input-date{
+
+   margin-left: 10px;
+}
+input{
+  color-scheme: dark;
+  border-radius: 20px;
+  color: white;
+  border-color: transparent;
+  text-align: center;
+  
+
+
+}
+.error-page{
+  min-height: 70vh;
+  background-image: url(./Assets/error_figure.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+
+}
+.loading-page{
+
+  min-height: 70vh;
+
+
+
+}
+
+
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App{
+
+  background-color: black;
+}
+
+
