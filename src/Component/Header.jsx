@@ -3,6 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import "bootstrap/dist/js/bootstrap.js";
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import{NavLink}from "react-router-dom"
 
 export default function Header() {
   return (
@@ -14,12 +15,8 @@ export default function Header() {
         <Navbar.Toggle className="me-4" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="ms-4" href="/">
-              Home
-            </Nav.Link>
-            <Nav.Link className="ms-4" href="/stock">
-              Stocks
-            </Nav.Link>
+            <NavLink to ="/" className="ms-4 nav-item" >Home</NavLink>
+            <NavLink to ="/stock" className="ms-4  nav-item" >Stock</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

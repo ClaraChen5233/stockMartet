@@ -9,7 +9,14 @@
 .body{
   min-height: 100vh;
 }
+/*Nav bar*/
+.nav-item{
 
+color: white !important;
+text-decoration: none!important;
+padding-bottom: 0!important;
+
+}
 /*Home*/
 h1, p, h5,a,h2{
   font-family: 'Poppins', sans-serif;
@@ -152,13 +159,7 @@ footer{
   margin-bottom: -10px;
 }
 
-/* .home-bg{
-  background-image: url(./Assets/Home_computer-01.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-/*Stock*/
+
 
 /*Quotes*/
 .table{
@@ -196,10 +197,6 @@ input{
 
 }
 
-
-/* .App {
-  text-align: center;
-} */
 
 .App-logo {
   height: 40vmin;
