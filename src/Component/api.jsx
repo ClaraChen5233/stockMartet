@@ -14,7 +14,6 @@ export function UseNewData() {
       `https://financialmodelingprep.com/api/v3/nasdaq_constituent?apikey=${API_KEY}`
     );
     let data = await res.json();
-    // console.log(data);
     return data.map((company) => {
       return {
         symbol: company.symbol,
@@ -69,7 +68,6 @@ export function UseStockData(Symbol) {
       `https://financialmodelingprep.com/api/v3/quote/${Symbol}?apikey=${API_KEY}`
     );
     let company = await res.json();
-    console.log(company);
 
     return {
       name: company[0].name,
